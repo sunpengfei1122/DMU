@@ -27,35 +27,16 @@ This is the official code repository for the paper *"Delayed Memory Unit: Modeli
 
  
 ## Abstract
-Recurrent Neural Networks (RNNs) are widely recognized for their proficiency in modeling temporal dependencies,
-making them highly prevalent in sequential data processing
-applications. Nevertheless, vanilla RNNs are confronted with
-the well-known issue of gradient vanishing and exploding,
-posing a significant challenge for learning and establishing
-long-range dependencies. Additionally, gated RNNs tend to be
-over-parameterized, resulting in poor computational efficiency
-and network generalization. To address these challenges, this
-paper proposes a novel Delayed Memory Unit (DMU). The
-DMU incorporates a delay line structure along with delay gates
-into vanilla RNN, thereby enhancing temporal interaction and
-facilitating temporal credit assignment. Specifically, the DMU
-is designed to directly distribute the input information to the
-optimal time instant in the future, rather than aggregating and
-redistributing it over time through intricate network dynamics.
-Our proposed DMU demonstrates superior temporal modeling
-capabilities across a broad range of sequential modeling tasks,
-utilizing considerably fewer parameters than other state-of-the-art
-gated RNN models in applications such as speech recognition,
-radar gesture recognition, ECG waveform segmentation, and
-permuted sequential image classification.
+Recurrent Neural Networks (RNNs) are widely recognized for their proficiency in modeling temporal dependencies, making them highly prevalent in sequential data processing applications. Nevertheless, vanilla RNNs are confronted with the well-known issue of gradient vanishing and exploding, posing a significant challenge for learning and establishing long-range dependencies. Additionally, gated RNNs tend to be over-parameterized, resulting in poor computational efficiency and network generalization. To address these challenges, this paper proposes a novel Delayed Memory Unit (DMU). The DMU incorporates a delay line structure along with delay gates
+into vanilla RNN, thereby enhancing temporal interaction and facilitating temporal credit assignment. Specifically, the DMU is designed to directly distribute the input information to the optimal time instant in the future, rather than aggregating and redistributing it over time through intricate network dynamics. Our proposed DMU demonstrates superior temporal modeling capabilities across a broad range of sequential modeling tasks, utilizing considerably fewer parameters than other state-of-the-art gated RNN models in applications such as speech recognition, radar gesture recognition, ECG waveform segmentation, and permuted sequential image classification.
 
 
 
 ## Installation
 **How to run:**
 To use the DMU in your training framework, simply instantiate and apply it as follows:
-# input_dim: number of input features (e.g., 256)
-# delay_dim: delay-line length n (e.g., 20)
+#input_dim: number of input features (e.g., 256)
+#delay_dim: delay-line length n (e.g., 20)
 output = DMU(input_dim=256, delay_dim=20)(x)
 Ensure that your input tensor x has shape (batch_size, time_steps, input_dim).
 
