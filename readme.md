@@ -56,7 +56,9 @@ permuted sequential image classification.
 
 ## Installation
 **How to run:**
-You can just copy the network under your training framework, and then use
-output= DMU(input_dim=256, delay_dim=20)  # input_dim is the dim of inputs, delay_dim is the delay line length n
-Try to make sure the input dimension is [x: (batch, time_steps, input_dim)]
+To use the DMU in your training framework, simply instantiate and apply it as follows:
+# input_dim: number of input features (e.g., 256)
+# delay_dim: delay-line length n (e.g., 20)
+output = DMU(input_dim=256, delay_dim=20)(x)
+Ensure that your input tensor x has shape (batch_size, time_steps, input_dim).
 
