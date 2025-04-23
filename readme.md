@@ -31,6 +31,10 @@ This is the official code repository for the paper *"Delayed Memory Unit: Modeli
   <button onclick="hideBib('bib8')">Close</button>
 </div>
 
+  </pre>
+  <button onclick="copyBib('txt5')">Copy</button>
+  <button onclick="hideBib('bib5')">Close</button>
+</div>
 ## Abstract
 Recurrent Neural Networks (RNNs) are widely recognized for their proficiency in modeling temporal dependencies,
 making them highly prevalent in sequential data processing
