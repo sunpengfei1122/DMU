@@ -26,10 +26,7 @@ This is the official code repository for the paper *"Delayed Memory Unit: Modeli
   year={2024},
   publisher={IEEE}
 }
-  </pre>
-  <button onclick="copyBib('txt8')">Copy</button>
-  <button onclick="hideBib('bib8')">Close</button>
-</div>
+
 
  
 ## Abstract
@@ -62,30 +59,4 @@ permuted sequential image classification.
 You can just copy the network under your training framework, and then use
 output= DMU(input_dim=256, delay_dim=20)  # input_dim is the dim of inputs, delay_dim is the delay line length n
 Try to make sure the input dimension is [x: (batch, time_steps, input_dim)]
-
-<script>
-// 打开某个 Bib 弹窗，并在 3 秒后自动隐藏
-function showBibtex(id) {
-  // 先隐藏所有已有的弹窗
-  document.querySelectorAll('div[id^="bib"]').forEach(d => d.style.display = 'none');
-  const bib = document.getElementById(id);
-  if (!bib) return;
-  bib.style.display = 'block';
-  // 3 秒后自动隐藏
-  setTimeout(() => bib.style.display = 'none', 3000);
-}
-
-// 手动关闭
-function hideBib(id) {
-  const bib = document.getElementById(id);
-  if (bib) bib.style.display = 'none';
-}
-
-// 复制到剪贴板
-function copyBib(txtId) {
-  const txt = document.getElementById(txtId).textContent;
-  navigator.clipboard.writeText(txt);
-}
-</script>
-
 
