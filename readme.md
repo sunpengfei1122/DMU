@@ -12,9 +12,6 @@ This is the official code repository for the paper *"Delayed Memory Unit: Modeli
 > - **DOI:** 10.1109/TNNLS.2024.3490833
 > - **URL:** [IEEE Article](https://ieeexplore.ieee.org/document/10757311)](https://ieeexplore.ieee.org/document/10757311)
 <!-- 1. Delayed Memory Unit (TNNLS 2024) -->
-📄 <strong>Sun, P.</strong>, Wu, J., Zhang, M., Devos, P., &amp; Botteldooren, D.  
-<strong>Delayed Memory Unit: Modelling Temporal Dependency Through Delay Gate.</strong>  
-<em>IEEE Trans. on Neural Networks and Learning Systems, 2024.</em>  
 <a href="https://arxiv.org/abs/2310.14982" target="_blank"><button>PDF</button></a>
 <button onclick="showBibtex('bib8')">Cite</button>
 <div id="bib8" style="display:none; position:fixed; top:20%; left:50%; transform:translateX(-50%); background:#fff; border:1px solid #ccc; padding:1em; z-index:100; max-width:600px;">
