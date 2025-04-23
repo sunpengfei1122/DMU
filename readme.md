@@ -10,7 +10,26 @@ This is the official code repository for the paper *"Delayed Memory Unit: Modeli
 > - **Journal:** IEEE Transactions on Neural Networks and Learning Systems
 > - **Year:** 2024
 > - **DOI:** 10.1109/TNNLS.2024.3490833
-> - **URL:** [ScienceDirect Article](https://www.sciencedirect.com/science/article/pii/S0893608024006026)](https://ieeexplore.ieee.org/document/10757311)
+> - **URL:** [IEEE Article](https://ieeexplore.ieee.org/document/10757311)](https://ieeexplore.ieee.org/document/10757311)
+<!-- 1. Delayed Memory Unit (TNNLS 2024) -->
+📄 <strong>Sun, P.</strong>, Wu, J., Zhang, M., Devos, P., &amp; Botteldooren, D.  
+<strong>Delayed Memory Unit: Modelling Temporal Dependency Through Delay Gate.</strong>  
+<em>IEEE Trans. on Neural Networks and Learning Systems, 2024.</em>  
+<a href="https://arxiv.org/abs/2310.14982" target="_blank"><button>PDF</button></a>
+<button onclick="showBibtex('bib8')">Cite</button>
+<div id="bib8" style="display:none; position:fixed; top:20%; left:50%; transform:translateX(-50%); background:#fff; border:1px solid #ccc; padding:1em; z-index:100; max-width:600px;">
+  <pre id="txt8" style="white-space:pre-wrap;">
+@article{sun2024delayed,
+  title={Delayed memory unit: modeling temporal dependency through delay gate},
+  author={Sun, Pengfei and Wu, Jibin and Zhang, Malu and Devos, Paul and Botteldooren, Dick},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2024},
+  publisher={IEEE}
+}
+  </pre>
+  <button onclick="copyBib('txt8')">Copy</button>
+  <button onclick="hideBib('bib8')">Close</button>
+</div>
 
 ## Abstract
 Recurrent Neural Networks (RNNs) are widely recognized for their proficiency in modeling temporal dependencies,
