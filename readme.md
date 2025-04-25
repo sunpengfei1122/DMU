@@ -1,7 +1,7 @@
 
 # README
 
-This is the official code repository for the paper *"Delayed Memory Unit: Modeling Temporal Dependency Through Delay Gate"*.
+This is the code repository for the paper *"Delayed Memory Unit: Modeling Temporal Dependency Through Delay Gate"*.
 
 **Paper Details:**
 
