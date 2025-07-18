@@ -7,17 +7,20 @@ This is the code repository for the paper *"Delayed Memory Unit: Modeling Tempor
 
 
 <!-- 1. Delayed Memory Unit (TNNLS 2024) -->
-<a href="https://arxiv.org/abs/2310.14982" target="_blank"><button>PDF</button></a>
+<a href="https://10.1109/TNNLS.2024.3490833" target="_blank"><button>PDF</button></a>
 <button onclick="showBibtex('bib8')">Cite</button>
 <div id="bib8" style="display:none; position:fixed; top:20%; left:50%; transform:translateX(-50%); background:#fff; border:1px solid #ccc; padding:1em; z-index:100; max-width:600px;">
   <pre id="txt8" style="white-space:pre-wrap;">
-@article{sun2024delayed,
-  title={Delayed memory unit: modeling temporal dependency through delay gate},
+@ARTICLE{sun2024delayed,
   author={Sun, Pengfei and Wu, Jibin and Zhang, Malu and Devos, Paul and Botteldooren, Dick},
-  journal={IEEE Transactions on Neural Networks and Learning Systems},
-  year={2024},
-  publisher={IEEE}
-}
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Delayed Memory Unit: Modeling Temporal Dependency Through Delay Gate}, 
+  year={2025},
+  volume={36},
+  number={6},
+  pages={10808-10818},
+  keywords={Logic gates;Delays;Delay lines;Recurrent neural networks;Long short term memory;Computational modeling;Computational efficiency;Transformers;Sun;Speech recognition;Delay gate;delay line;recurrent neural network (RNN);speech recognition;time series analysis},
+  doi={10.1109/TNNLS.2024.3490833}}
 
 
  
