@@ -5,12 +5,7 @@ This is the code repository for the paper *"Delayed Memory Unit: Modeling Tempor
 
 **Paper Details:**
 
-> - **Title:** Delayed Memory Unit: Modeling Temporal Dependency Through Delay Gate
-> - **Authors:** Pengfei Sun, Jibin Wu*, Malu Zhang, Paul Devos, Dick Botteldooren
-> - **Journal:** IEEE Transactions on Neural Networks and Learning Systems
-> - **Year:** 2024
-> - **DOI:** 10.1109/TNNLS.2024.3490833
-> - **URL:** [IEEE Article](https://ieeexplore.ieee.org/document/10757311)](https://ieeexplore.ieee.org/document/10757311)
+
 <!-- 1. Delayed Memory Unit (TNNLS 2024) -->
 <a href="https://arxiv.org/abs/2310.14982" target="_blank"><button>PDF</button></a>
 <button onclick="showBibtex('bib8')">Cite</button>
