@@ -6,7 +6,7 @@ This is the code repository for the paper *"Delayed Memory Unit: Modeling Tempor
 **Paper Details:**
 
 
-<!-- 1. Delayed Memory Unit (TNNLS 2024) -->
+<!-- 1. Delayed Memory Unit (TNNLS 2025) -->
 <a href="https://10.1109/TNNLS.2024.3490833" target="_blank"><button>PDF</button></a>
 <button onclick="showBibtex('bib8')">Cite</button>
 <div id="bib8" style="display:none; position:fixed; top:20%; left:50%; transform:translateX(-50%); background:#fff; border:1px solid #ccc; padding:1em; z-index:100; max-width:600px;">
@@ -19,7 +19,6 @@ This is the code repository for the paper *"Delayed Memory Unit: Modeling Tempor
   volume={36},
   number={6},
   pages={10808-10818},
-  keywords={Logic gates;Delays;Delay lines;Recurrent neural networks;Long short term memory;Computational modeling;Computational efficiency;Transformers;Sun;Speech recognition;Delay gate;delay line;recurrent neural network (RNN);speech recognition;time series analysis},
   doi={10.1109/TNNLS.2024.3490833}}
 
 
