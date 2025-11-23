@@ -17,6 +17,7 @@ To use the DMU in your training framework, simply instantiate and apply it as fo
 #input_dim: number of input features (e.g., 256)
 #delay_dim: delay-line length n (e.g., 20)
 #input tensor x has shape (batch_size, time_steps, input_dim) 
+
 output = DMU(input_dim=256, delay_dim=20)(x)   
 
 **Paper Details:**
