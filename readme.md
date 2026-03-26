@@ -26,6 +26,7 @@ output = DMU(input_dim=256, delay_dim=20)(x)
 <button onclick="showBibtex('bib8')">Cite</button>
 <div id="bib8" style="display:none; position:fixed; top:20%; left:50%; transform:translateX(-50%); background:#fff; border:1px solid #ccc; padding:1em; z-index:100; max-width:600px;">
   <pre id="txt8" style="white-space:pre-wrap;">
+```bibtex
 @ARTICLE{sun2024delayed,
   author={Sun, Pengfei and Wu, Jibin and Zhang, Malu and Devos, Paul and Botteldooren, Dick},
   journal={IEEE Transactions on Neural Networks and Learning Systems}, 
